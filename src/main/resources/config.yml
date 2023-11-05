@@ -1,0 +1,137 @@
+Item: #分组标签，可自定义创建
+  settings:
+    isReplace: true
+    #是否没收方块并将其替换为其他方块，可减少服务器负担，但会破坏游戏体验
+    #若填true则应写对应的new，将消耗导线且被替换成新物品
+    #若填false则返还手中导线
+  old: #方块ID-方块子ID
+    - 'enderio_conduit'
+    - 'cyclic_item_pipe'
+    - 'pipez_item_pipe'
+    - 'mekanism_basic_logistical_transporter'
+    - 'mekanism_advanced_logistical_transporter'
+    - 'mekanism_advanced_logistical_transporter'
+    - 'mekanism_elite_logistical_transporter'
+    - 'mekanism_ultimate_logistical_transporter'
+    - 'mekanism_restrictive_transporter'
+    - 'mekanism_diversion_transporter'
+  new: 'air'
+  #当触发回路时提示消息
+  message: '§3风铃§b物语 §7>> §f此物件构成回路失效'
+Energy: #分组标签，可自定义创建
+  settings:
+    isReplace: true
+    #是否没收方块并将其替换为其他方块，可减少服务器负担，但会破坏游戏体验
+    #若填true则应写对应的new，将消耗导线且被替换成新物品
+    #若填false则返还手中导线
+  old: #方块ID-方块子ID
+    - 'cyclic_energy_pipe'
+    - 'pipez_energy_pipe'
+    - 'integrateddynamics_cable'
+    - 'mekanism_basic_universal_cable'
+    - 'mekanism_advanced_universal_cable'
+    - 'mekanism_elite_universal_cable'
+    - 'mekanism_ultimate_universal_cable'
+    - 'powah_energy_cable_starter'
+    - 'powah_energy_cable_basic'
+    - 'powah_energy_cable_hardened'
+    - 'powah_energy_cable_blazing'
+    - 'powah_energy_cable_niotic'
+    - 'powah_energy_cable_spirited'
+    - 'powah_energy_cable_nitro'
+  new: 'air'
+  #当触发回路时提示消息
+  message: '§3风铃§b物语 §7>> §f此物件构成回路失效'
+Fluid: #分组标签，可自定义创建
+  settings:
+    isReplace: true
+    #是否没收方块并将其替换为其他方块，可减少服务器负担，但会破坏游戏体验
+    #若填true则应写对应的new，将消耗导线且被替换成新物品
+    #若填false则返还手中导线
+  old: #方块ID-方块子ID
+    - 'cyclic_fluid_pipe'
+    - 'pipez_fluid_pipe'
+    - 'mekanism_basic_mechanical_pipe'
+    - 'mekanism_advanced_mechanical_pipe'
+    - 'mekanism_elite_mechanical_pipe'
+    - 'mekanism_ultimate_mechanical_pipe'
+  new: 'air'
+  #当触发回路时提示消息
+  message: '§3风铃§b物语 §7>> §f此物件构成回路失效'
+Gas: #分组标签，可自定义创建
+  settings:
+    isReplace: true
+    #是否没收方块并将其替换为其他方块，可减少服务器负担，但会破坏游戏体验
+    #若填true则应写对应的new，将消耗导线且被替换成新物品
+    #若填false则返还手中导线
+  old: #方块ID-方块子ID
+    - 'pipez_gas_pipe'
+    - 'mekanism_basic_pressurized_tube'
+    - 'mekanism_advanced_pressurized_tube'
+    - 'mekanism_elite_pressurized_tube'
+    - 'mekanism_ultimate_pressurized_tube'
+  new: 'air'
+  #当触发回路时提示消息
+  message: '§3风铃§b物语 §7>> §f此物件构成回路失效'
+Thermodynamic: #分组标签，可自定义创建
+  settings:
+    isReplace: true
+    #是否没收方块并将其替换为其他方块，可减少服务器负担，但会破坏游戏体验
+    #若填true则应写对应的new，将消耗导线且被替换成新物品
+    #若填false则返还手中导线
+  old: #方块ID-方块子ID
+    - 'mekanism_basic_thermodynamic_conductor'
+    - 'mekanism_advanced_thermodynamic_conductor'
+    - 'mekanism_elite_thermodynamic_conductor'
+    - 'mekanism_ultimate_thermodynamic_conductor'
+  new: 'air'
+  #当触发回路时提示消息
+  message: '§3风铃§b物语 §7>> §f此物件构成回路失效'
+Miji: #分组标签，可自定义创建
+  settings:
+    isReplace: false
+    #是否没收方块并将其替换为其他方块，可减少服务器负担，但会破坏游戏体验
+    #若填true则应写对应的new，将消耗导线且被替换成新物品
+    #若填false则返还手中导线
+  old: #方块ID-方块子ID
+    - 'alchemistry_dissolver'
+    - 'mekanismgenerators_wind_generator'
+  new: 'air'
+  #当触发回路时提示消息
+  message: '§3风铃§b物语 §7>> §f请勿密集此机器'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

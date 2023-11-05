@@ -1,0 +1,14 @@
+name: AntiLoop
+main: knkiss.cn.AntiLoop
+version: "2.4"
+authors: [SettingDust, Knkiss]
+api-version: '1.20'
+load: POSTWORLD
+
+permissions:
+  AntiLoop.bypass:
+    default: op
+
+commands:
+  AntiLoop:
+    description: check AntiLoop All Groups
