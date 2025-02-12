@@ -1,0 +1,91 @@
+{
+  "Item": {
+    "settings": {
+      "isReplace": true
+    },
+    "old": [
+      "enderio:conduit",
+      "pipez:item_pipe",
+      "mekanism:advanced_logistical_transporter",
+      "mekanism:advanced_logistical_transporter",
+      "mekanism:elite_logistical_transporter",
+      "mekanism:ultimate_logistical_transporter",
+      "mekanism:restrictive_transporter",
+      "mekanism:diversion_transporter",
+      "mekanism:basic_logistical_transporter"
+    ],
+    "new": "minecraft:air",
+    "message": "§f构成回路失效"
+  },
+  "Energy": {
+    "settings": {
+      "isReplace": true
+    },
+    "old": [
+      "mekanism:basic_universal_cable",
+      "mekanism:advanced_universal_cable",
+      "mekanism:elite_universal_cable",
+      "mekanism:ultimate_universal_cable",
+      "powah:energy_cable_starter",
+      "powah:energy_cable_basic",
+      "powah:energy_cable_hardened",
+      "powah:energy_cable_blazing",
+      "powah:energy_cable_niotic",
+      "powah:energy_cable_spirited",
+      "powah:energy_cable_nitro"
+    ],
+    "new": "minecraft:air",
+    "message": "§f构成回路失效"
+  },
+  "Fluid": {
+    "settings": {
+      "isReplace": true
+    },
+    "old": [
+      "mekanism:basic_mechanical_pipe",
+      "mekanism:advanced_mechanical_pipe",
+      "mekanism:elite_mechanical_pipe",
+      "mekanism:ultimate_mechanical_pipe"
+    ],
+    "new": "minecraft:air",
+    "message": "§f此物件构成回路失效"
+  },
+  "Gas": {
+    "settings": {
+      "isReplace": true
+    },
+    "old": [
+      "pipez:gas_pipe",
+      "mekanism:basic_pressurized_tube",
+      "mekanism:advanced_pressurized_tube",
+      "mekanism:elite_pressurized_tube",
+      "mekanism:ultimate_pressurized_tube"
+    ],
+    "new": "minecraft:air",
+    "message": "§f此物件构成回路失效"
+  },
+  "Thermodynamic": {
+    "settings": {
+      "isReplace": true
+    },
+    "old": [
+      "mekanism:basic_thermodynamic_conductor",
+      "mekanism:advanced_thermodynamic_conductor",
+      "mekanism:elite_thermodynamic_conductor",
+      "mekanism:ultimate_thermodynamic_conductor"
+    ],
+    "new": "minecraft:air",
+    "message": "§f此物件构成回路失效"
+  },
+  "Miji": {
+    "settings": {
+      "isReplace": false
+    },
+    "old": [
+      "mekanismgenerators:wind_generator",
+      "avaritia:compressor"
+    ],
+    "new": "minecraft:air",
+    "message": "§f请不要密集此机器"
+  }
+}
